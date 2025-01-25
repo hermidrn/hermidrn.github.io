@@ -8,3 +8,17 @@ function changeImage() {
 }
 
 setInterval(changeImage, 3000);
+
+
+//Pop-up window when clicking on the image
+
+
+//open the popup
+function openPopup() {
+    document.getElementById('popup').style.display = 'block';
+}
+
+//close the popup
+function closePopup() {
+    document.getElementById('popup').style.display = 'none';
+}
