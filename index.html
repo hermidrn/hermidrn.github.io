@@ -45,7 +45,7 @@
             </div>
             <div class="project">
                 <div class="project-title"><h3>Wet Neighbour - January 2025 to ...?</h3></div>
-                <img src="images\wetneighbour.png" alt="Wet Neighbour - Arcade game" class="pic neighbour-pic" onclick="openPopup('neighbour')">
+                <img src="images\wetneighbour1.png" alt="Wet Neighbour - Arcade game" class="pic neighbour-pic" onclick="openPopup()">
                 <div class="description">
                     <p>A <b>solo arcade game</b> where the player, in a typical southern French setting, plays with a water gun to soak the neighbours who appear in the windows. We are working as a team of two, both doing programming, game design and the art. <br>
                     Currently, we are  finishing the code part and the assets.</p>
@@ -63,7 +63,7 @@
                             <p><a href="https://vivacious-sleep-77b.notion.site/Game-Design-Document-7d2294f87ef546cb8121e2c2c2bc4491" target="_blank">GDD</a></p>
                         </div>
                         <div class="neighbour-tool tool link-tool">
-                            <p><a href="https://github.com/kalharko/wet-neighboor" target="_blank">github</a></p>
+                            <p><a href="https://github.com/kalharko/wet-neighbour" target="_blank">github</a></p>
                         </div>
                         
                     </div>
@@ -73,7 +73,7 @@
             <div class="projects">
                 <div class="project">
                     <h3>Alien Sushi - May 2024  </h3>
-                    <img src="images\alien sushi.png" alt="Alien Sushi - game jam" class="pic sushi-pic" onclick="openPopup('sushi')">
+                    <img src="images\alien sushi.png" alt="Alien Sushi - game jam" class="pic sushi-pic" onclick="openPopup()">
                     <div class="description">
                         <p>"Become a top-notch sushi waiter in this alien restaurant! Use your memory to remember the instructions: they only appear once!" <br />
                             A <b>21-hours game jam</b> in Strasbourg in a <b>six-member team</b>. The theme was "Memory". I mostly contributed to the game design, gameplay programming and assets integration & animation.</p>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="project">
                     <h3>Life V-air - February 2024 to September 2024</h3>
-                    <img src="images/life.png" alt="Life V-air" class="pic life-pic" onclick="openPopup('life')">
+                    <img src="images/life.png" alt="Life V-air" class="pic life-pic" onclick="openPopup()">
                     <div class="description">
                         <p>Life V-air is a European project designed to raise public awareness of environmental issues. During my end-of-studies internship and a short-term contract at ATMO Grand Est, I contributed to the development of two <b>VR serious games for Oculus Quest 2 & 3</b>, within a team of two developers. <br />
                             I mostly did :
@@ -148,12 +148,11 @@
         </main>
     </div>
     <div id="popup" class="popup">
-        <div class="popup-content">
-            <span class="close" onclick="closePopup()">&times;</span>
-            <div class="popup-images">
-            </div>
-        </div>
+        <div class="soon"><p>Coming soon !</p></div>
+        <span class="close" onclick="closePopup()">&times;</span>
+        <img class="popup-content" id="popup-img">
+        <div id="popup-caption"></div>
     </div>
-    <script src="script.js"></script>
+   <script src="script.js"></script>
 </body>
 </html>
